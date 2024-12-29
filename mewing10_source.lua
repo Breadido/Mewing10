@@ -4,7 +4,7 @@ local Frame = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
 local CloseFrame = Instance.new("Frame")
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
